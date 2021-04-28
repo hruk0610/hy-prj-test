@@ -20,10 +20,6 @@ group 'com.hy.prj'
 version '1.0.0-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 sourceCompatibility = 1.8
 
-bootJar {
-    mainClassName = 'com.hy.prj.Application'
-}
-
 repositories {
     mavenCentral()
     jcenter()
