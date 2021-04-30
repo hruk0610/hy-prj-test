@@ -40,7 +40,7 @@ deploy:
     bundle_type: zip # 압축 확장자
     application: cradle-webservice
     deployment_group: cradle-webservice-group
-    region: us-east-2
+    region: ap-northeast-2
     wait-until-deployed: true
 
 # CI 실행 완료 시 메일로 알람
